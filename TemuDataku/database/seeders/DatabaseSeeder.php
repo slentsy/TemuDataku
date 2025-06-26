@@ -16,8 +16,15 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         User::factory()->create([
-            'name' => 'Test User',
+            'nama' => 'Test User',
             'email' => 'test@example.com',
+        ]);
+
+        $this->call([
+            KategoriSeeder::class, // Call the KategoriSeeder to seed the Kategori table
+            KatalogSeeder::class, // Call the KatalogSeeder to seed the Katalog table
+            // Add other seeders here if needed
+             // Call the KategoriSeeder to seed the Kategori table
         ]);
     }
 }

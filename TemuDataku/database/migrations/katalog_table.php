@@ -16,6 +16,12 @@ return new class extends Migration
             $table->string('namaKatalog');
             $table->string('deskripsi')->unique();
             $table->string('harga');
+            $table->boolean('tersedia')->default(true); // Indicates if the katalog is available
+
+            // FK tabel kategoris
+            $table->unsignedBigInteger('kategoriID');
+            $table->foreign('kategoriID')->references('id')->on('kategoris')->onDelete('cascade');
+            
             $table->timestamps();
         });
 

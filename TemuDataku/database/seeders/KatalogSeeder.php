@@ -22,7 +22,7 @@ class KatalogSeeder extends Seeder
             Rekaman sesi mentoring
             Garansi kepuasan
             Dapatkan akses ke praktik data science',
-            'harga' => '49k', 
+            'harga' => '49000', 
             'tersedia' => true, 
             'kategoriID' => 1 // Assuming this is the ID for the "Mentoring" category
         ]);
@@ -34,7 +34,7 @@ class KatalogSeeder extends Seeder
             Rekaman sesi mentoring
             Garansi kepuasan
             Dapatkan akses ke praktik data science',
-            'harga' => '159k', 
+            'harga' => '159000', 
             'tersedia' => true, 
             'kategoriID' => 1 // Assuming this is the ID for the "Mentoring" category
         ]);
@@ -99,7 +99,7 @@ class KatalogSeeder extends Seeder
         Katalog::create([
             'namaKatalog' => 'Bootcamp Data Analyst',
             'deskripsi' => 'Cocok untuk kamu yang tertarik analisis data',
-            'harga' => '1.199k', 
+            'harga' => '1199000', 
             'tersedia' => true, 
             'kategoriID' => 3 // Assuming this is the ID for the "Practice"
         ]);
@@ -107,7 +107,7 @@ class KatalogSeeder extends Seeder
         Katalog::create([
             'namaKatalog' => 'Bootcamp Data Scientist',
             'deskripsi' => 'Cocok untuk kamu yang mau leveling up',
-            'harga' => '1.199k', 
+            'harga' => '1199000', 
             'tersedia' => true, 
             'kategoriID' => 3 // Assuming this is the ID for the "Practice"
         ]);
@@ -115,7 +115,7 @@ class KatalogSeeder extends Seeder
         Katalog::create([
             'namaKatalog' => 'Bootcamp Data Science for Beginner',
             'deskripsi' => 'Cocok untuk kamu yang baru mulai',
-            'harga' => '449k', 
+            'harga' => '449000', 
             'tersedia' => true, 
             'kategoriID' => 3 // Assuming this is the ID for the "Practice"
         ]);
